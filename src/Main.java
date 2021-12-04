@@ -62,6 +62,7 @@ public class Main {
             System.out.println("(y >= x) : " + (y >= x)); // true
 
             System.out.println("((x > y) || (a && b)) : " + ((x > y) || (a && c))); // true
+            System.out.println();
         }
     }
 }
