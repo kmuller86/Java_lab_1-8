@@ -45,7 +45,7 @@ public class Main {
             Scanner scan = new Scanner(System.in);
             System.out.println("Podaj dowolną liczbe zmiennoprzecinkową w zakresie od 0,1 do 0,99 i sprawdz czy wygrałeś");
             Double przecinekLiczba = scan.nextDouble();
-
+            /* miało być else if() {} */
             if ((przecinekLiczba) == 0.88)
             {
                 System.out.println("Wygrałeś");
